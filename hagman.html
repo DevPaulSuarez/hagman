@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hagman.css">
+    <link rel="stylesheet" href="person.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id ="rope">
+            |
+        </div>
+        <div id="pole">
+
+        </div>
+    </div>
+    <div id="person">
+        <div id="head" class="appendage intact">
+            o
+        </div>
+        <div id="torso">
+            <div id="arm-left" class="appendage intact">
+                /
+            </div>
+            <div id="body" class="appendage intact">
+                |
+            </div>
+            <div id="arm-right" class="appendage intact">
+                \
+            </div>
+
+        </div>
+        <div id="lower">
+            <div id="leg-left" class="appendage intact">
+                /
+            </div>
+            <div id="leg-right" class="appendage intact">
+                \
+            </div>
+        </div>
+    </div>
+    <div id="game">
+        <div id="guessed-characters"></div>
+        <div id="secret-word"></div>
+        <div id="game-message"></div>
+    </div>
+    <div id="game-end" class="no-display">
+        <div id="game-end-message" class="end-text">
+
+        </div>
+        <div id="revealed-secret" class="end-text">
+
+        </div>
+        <button id="restart-game" class="end-text">
+            Play again
+        </button>
+    </div>
+</body>
+<script src="hagman.js"></script>
+</html>
